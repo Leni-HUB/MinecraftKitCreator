@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "category", "max_stack", "slots", "enchantable", "icon"],
+        "properties": {
+          "id": { 
+            "type": "string",
+            "pattern": "^minecraft:[a-z_]+$",
+            "description": "Die exakte Minecraft-ID, beginnend mit 'minecraft:'"
+          },
+          "name": { 
+            "type": "string",
+            "description": "Der Anzeigename in der Benutzeroberfläche" 
+          },
+          "category": { 
+            "type": "string",
+            "enum": ["Waffen", "Werkzeuge", "Rüstung", "Blöcke", "Nahrung", "Tränke", "Utility", "Fernkampf"],
+            "description": "Die Kategorie des Items für Filterung und Verzauberungskompatibilität"
+          },
+          "max_stack": { 
+            "type": "integer", 
+            "minimum": 1, 
+            "maximum": 64,
+            "description": "Maximale Stapelgröße, 1 für nicht stapelbare Items"
+          },
+          "slots": { 
+            "type": "array", 
+            "items": { 
+              "type": "string",
+              "enum": ["mainhand", "offhand", "head", "chest", "legs", "feet", "inventory"]
+            },
+            "description": "Mögliche Ausrüstungsslots für das Item"
+          },
+          "enchantable": { 
+            "type": "boolean",
+            "description": "Gibt an, ob das Item verzaubert werden kann"
+          },
+          "icon": { 
+            "type": "string",
+            "pattern": "^[a-z0-9_]+\\.png$",
+            "description": "Der Dateiname des Icons im /icons-Ordner"
+          }
+        }
+      }
+    }
+  },
+  "required": ["items"]
+}

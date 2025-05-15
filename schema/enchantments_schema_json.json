@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "enchantments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "max_level", "conflicts", "item_categories"],
+        "properties": {
+          "id": { 
+            "type": "string",
+            "pattern": "^minecraft:[a-z_]+$",
+            "description": "Die exakte Minecraft-ID der Verzauberung, beginnend mit 'minecraft:'"
+          },
+          "name": { 
+            "type": "string",
+            "description": "Der deutsche Name der Verzauberung in der Benutzeroberfläche" 
+          },
+          "max_level": { 
+            "type": "integer", 
+            "minimum": 1, 
+            "maximum": 5,
+            "description": "Die maximale Stufe der Verzauberung (1-5)"
+          },
+          "conflicts": { 
+            "type": "array", 
+            "items": { 
+              "type": "string",
+              "pattern": "^minecraft:[a-z_]+$"
+            },
+            "description": "Liste der Verzauberungs-IDs, die nicht mit dieser kombinierbar sind"
+          },
+          "item_categories": { 
+            "type": "array", 
+            "items": { 
+              "type": "string",
+              "enum": ["Waffen", "Werkzeuge", "Rüstung", "Blöcke", "Nahrung", "Tränke", "Utility", "Fernkampf"]
+            },
+            "description": "Kategorien von Items, auf die diese Verzauberung angewendet werden kann"
+          },
+          "version": { 
+            "type": "string",
+            "pattern": "^[0-9]+(\\.[0-9]+)*\\+$", 
+            "description": "Die Minecraft-Version, ab der die Verzauberung verfügbar ist (optional)"
+          }
+        }
+      }
+    }
+  },
+  "required": ["enchantments"]
+}

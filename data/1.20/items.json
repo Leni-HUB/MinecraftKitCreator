@@ -1,0 +1,589 @@
+{
+  "items": [
+    {
+      "id": "minecraft:diamond_sword",
+      "name": "Diamantschwert",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "diamond_sword.png"
+    },
+    {
+      "id": "minecraft:iron_sword",
+      "name": "Eisenschwert",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "iron_sword.png"
+    },
+    {
+      "id": "minecraft:golden_sword",
+      "name": "Goldschwert",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "golden_sword.png"
+    },
+    {
+      "id": "minecraft:stone_sword",
+      "name": "Steinschwert",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "stone_sword.png"
+    },
+    {
+      "id": "minecraft:wooden_sword",
+      "name": "Holzschwert",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "wooden_sword.png"
+    },
+    {
+      "id": "minecraft:netherite_sword",
+      "name": "Netherit-Schwert",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "netherite_sword.png"
+    },
+    {
+      "id": "minecraft:bow",
+      "name": "Bogen",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "bow.png"
+    },
+    {
+      "id": "minecraft:crossbow",
+      "name": "Armbrust",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "crossbow.png"
+    },
+    {
+      "id": "minecraft:trident",
+      "name": "Dreizack",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "trident.png"
+    },
+    {
+      "id": "minecraft:shield",
+      "name": "Schild",
+      "category": "Waffen",
+      "max_stack": 1,
+      "slots": ["offhand"],
+      "enchantable": false,
+      "icon": "shield.png"
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "name": "Diamantspitzhacke",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "diamond_pickaxe.png"
+    },
+    {
+      "id": "minecraft:iron_pickaxe",
+      "name": "Eisenspitzhacke",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "iron_pickaxe.png"
+    },
+    {
+      "id": "minecraft:golden_pickaxe",
+      "name": "Goldspitzhacke",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "golden_pickaxe.png"
+    },
+    {
+      "id": "minecraft:stone_pickaxe",
+      "name": "Steinspitzhacke",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "stone_pickaxe.png"
+    },
+    {
+      "id": "minecraft:wooden_pickaxe",
+      "name": "Holzspitzhacke",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "wooden_pickaxe.png"
+    },
+    {
+      "id": "minecraft:netherite_pickaxe",
+      "name": "Netherit-Spitzhacke",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "netherite_pickaxe.png"
+    },
+    {
+      "id": "minecraft:diamond_axe",
+      "name": "Diamantaxt",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "diamond_axe.png"
+    },
+    {
+      "id": "minecraft:diamond_shovel",
+      "name": "Diamantschaufel",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "diamond_shovel.png"
+    },
+    {
+      "id": "minecraft:diamond_hoe",
+      "name": "Diamanthacke",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "diamond_hoe.png"
+    },
+    {
+      "id": "minecraft:fishing_rod",
+      "name": "Angel",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "fishing_rod.png"
+    },
+    {
+      "id": "minecraft:flint_and_steel",
+      "name": "Feuerzeug",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": false,
+      "icon": "flint_and_steel.png"
+    },
+    {
+      "id": "minecraft:shears",
+      "name": "Schere",
+      "category": "Werkzeuge",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": true,
+      "icon": "shears.png"
+    },
+    {
+      "id": "minecraft:diamond_helmet",
+      "name": "Diamanthelm",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["head"],
+      "enchantable": true,
+      "icon": "diamond_helmet.png"
+    },
+    {
+      "id": "minecraft:diamond_chestplate",
+      "name": "Diamantbrustpanzer",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["chest"],
+      "enchantable": true,
+      "icon": "diamond_chestplate.png"
+    },
+    {
+      "id": "minecraft:diamond_leggings",
+      "name": "Diamanthose",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["legs"],
+      "enchantable": true,
+      "icon": "diamond_leggings.png"
+    },
+    {
+      "id": "minecraft:diamond_boots",
+      "name": "Diamantstiefel",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["feet"],
+      "enchantable": true,
+      "icon": "diamond_boots.png"
+    },
+    {
+      "id": "minecraft:netherite_helmet",
+      "name": "Netherit-Helm",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["head"],
+      "enchantable": true,
+      "icon": "netherite_helmet.png"
+    },
+    {
+      "id": "minecraft:netherite_chestplate",
+      "name": "Netherit-Brustpanzer",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["chest"],
+      "enchantable": true,
+      "icon": "netherite_chestplate.png"
+    },
+    {
+      "id": "minecraft:netherite_leggings",
+      "name": "Netherit-Hose",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["legs"],
+      "enchantable": true,
+      "icon": "netherite_leggings.png"
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "name": "Netherit-Stiefel",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["feet"],
+      "enchantable": true,
+      "icon": "netherite_boots.png"
+    },
+    {
+      "id": "minecraft:turtle_helmet",
+      "name": "Schildkrötenhelm",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["head"],
+      "enchantable": true,
+      "icon": "turtle_helmet.png"
+    },
+    {
+      "id": "minecraft:elytra",
+      "name": "Elytren",
+      "category": "Rüstung",
+      "max_stack": 1,
+      "slots": ["chest"],
+      "enchantable": true,
+      "icon": "elytra.png"
+    },
+    {
+      "id": "minecraft:stone",
+      "name": "Stein",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "stone.png"
+    },
+    {
+      "id": "minecraft:oak_log",
+      "name": "Eichenholz",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "oak_log.png"
+    },
+    {
+      "id": "minecraft:oak_planks",
+      "name": "Eichenholzbretter",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "oak_planks.png"
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "name": "Bruchstein",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "cobblestone.png"
+    },
+    {
+      "id": "minecraft:dirt",
+      "name": "Erde",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "dirt.png"
+    },
+    {
+      "id": "minecraft:grass_block",
+      "name": "Grasblock",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "grass_block.png"
+    },
+    {
+      "id": "minecraft:obsidian",
+      "name": "Obsidian",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "obsidian.png"
+    },
+    {
+      "id": "minecraft:diamond_block",
+      "name": "Diamantblock",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "diamond_block.png"
+    },
+    {
+      "id": "minecraft:gold_block",
+      "name": "Goldblock",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "gold_block.png"
+    },
+    {
+      "id": "minecraft:iron_block",
+      "name": "Eisenblock",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "iron_block.png"
+    },
+    {
+      "id": "minecraft:netherite_block",
+      "name": "Netheritblock",
+      "category": "Blöcke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "netherite_block.png"
+    },
+    {
+      "id": "minecraft:apple",
+      "name": "Apfel",
+      "category": "Nahrung",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "apple.png"
+    },
+    {
+      "id": "minecraft:cooked_beef",
+      "name": "Steak",
+      "category": "Nahrung",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "cooked_beef.png"
+    },
+    {
+      "id": "minecraft:bread",
+      "name": "Brot",
+      "category": "Nahrung",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "bread.png"
+    },
+    {
+      "id": "minecraft:golden_apple",
+      "name": "Goldener Apfel",
+      "category": "Nahrung",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "golden_apple.png"
+    },
+    {
+      "id": "minecraft:enchanted_golden_apple",
+      "name": "Verzauberter Goldener Apfel",
+      "category": "Nahrung",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "enchanted_golden_apple.png"
+    },
+    {
+      "id": "minecraft:potion",
+      "name": "Trank",
+      "category": "Tränke",
+      "max_stack": 1,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "potion.png"
+    },
+    {
+      "id": "minecraft:splash_potion",
+      "name": "Wurftrank",
+      "category": "Tränke",
+      "max_stack": 1,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "splash_potion.png"
+    },
+    {
+      "id": "minecraft:lingering_potion",
+      "name": "Verweilender Trank",
+      "category": "Tränke",
+      "max_stack": 1,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "lingering_potion.png"
+    },
+    {
+      "id": "minecraft:experience_bottle",
+      "name": "Erfahrungsflasche",
+      "category": "Tränke",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "experience_bottle.png"
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "name": "Enderperle",
+      "category": "Utility",
+      "max_stack": 16,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "ender_pearl.png"
+    },
+    {
+      "id": "minecraft:ender_eye",
+      "name": "Enderauge",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "ender_eye.png"
+    },
+    {
+      "id": "minecraft:firework_rocket",
+      "name": "Feuerwerksrakete",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "firework_rocket.png"
+    },
+    {
+      "id": "minecraft:totem_of_undying",
+      "name": "Totem der Unsterblichkeit",
+      "category": "Utility",
+      "max_stack": 1,
+      "slots": ["mainhand", "offhand"],
+      "enchantable": false,
+      "icon": "totem_of_undying.png"
+    },
+    {
+      "id": "minecraft:compass",
+      "name": "Kompass",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "compass.png"
+    },
+    {
+      "id": "minecraft:clock",
+      "name": "Uhr",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "clock.png"
+    },
+    {
+      "id": "minecraft:map",
+      "name": "Karte",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "map.png"
+    },
+    {
+      "id": "minecraft:writable_book",
+      "name": "Buch und Feder",
+      "category": "Utility",
+      "max_stack": 1,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "writable_book.png"
+    },
+    {
+      "id": "minecraft:written_book",
+      "name": "Geschriebenes Buch",
+      "category": "Utility",
+      "max_stack": 16,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "written_book.png"
+    },
+    {
+      "id": "minecraft:book",
+      "name": "Buch",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": true,
+      "icon": "book.png"
+    },
+    {
+      "id": "minecraft:enchanted_book",
+      "name": "Verzaubertes Buch",
+      "category": "Utility",
+      "max_stack": 1,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "enchanted_book.png"
+    },
+    {
+      "id": "minecraft:beacon",
+      "name": "Leuchtfeuer",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "beacon.png"
+    },
+    {
+      "id": "minecraft:conduit",
+      "name": "Herz des Meeres",
+      "category": "Utility",
+      "max_stack": 64,
+      "slots": ["inventory"],
+      "enchantable": false,
+      "icon": "conduit.png"
+    }
+  ]
+}

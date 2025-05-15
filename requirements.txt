@@ -1,0 +1,5 @@
+# requirements.txt
+PySide6-Essentials==6.9.0
+PySide6-Addons==6.9.0
+nbtlib==2.0.4
+jsonschema==4.21.0

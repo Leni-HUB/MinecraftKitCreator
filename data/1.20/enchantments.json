@@ -1,0 +1,364 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "name": "Schärfe",
+      "max_level": 5,
+      "conflicts": [
+        "minecraft:smite", 
+        "minecraft:bane_of_arthropods"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:smite",
+      "name": "Bann",
+      "max_level": 5,
+      "conflicts": [
+        "minecraft:sharpness",
+        "minecraft:bane_of_arthropods"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "name": "Nemesis der Gliederfüßer",
+      "max_level": 5,
+      "conflicts": [
+        "minecraft:sharpness",
+        "minecraft:smite"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:knockback",
+      "name": "Rückstoß",
+      "max_level": 2,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "name": "Verbrennung",
+      "max_level": 2,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:looting",
+      "name": "Plünderung",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:sweeping",
+      "name": "Schwungkraft",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.8+"
+    },
+    {
+      "id": "minecraft:efficiency",
+      "name": "Effizienz",
+      "max_level": 5,
+      "conflicts": [],
+      "item_categories": ["Werkzeuge"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:silk_touch",
+      "name": "Behutsamkeit",
+      "max_level": 1,
+      "conflicts": [
+        "minecraft:fortune"
+      ],
+      "item_categories": ["Werkzeuge"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:fortune",
+      "name": "Glück",
+      "max_level": 3,
+      "conflicts": [
+        "minecraft:silk_touch"
+      ],
+      "item_categories": ["Werkzeuge"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "name": "Haltbarkeit",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Waffen", "Werkzeuge", "Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:power",
+      "name": "Stärke",
+      "max_level": 5,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:punch",
+      "name": "Schlag",
+      "max_level": 2,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:flame",
+      "name": "Flamme",
+      "max_level": 1,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:infinity",
+      "name": "Unendlichkeit",
+      "max_level": 1,
+      "conflicts": [
+        "minecraft:mending"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:mending",
+      "name": "Reparatur",
+      "max_level": 1,
+      "conflicts": [
+        "minecraft:infinity"
+      ],
+      "item_categories": ["Waffen", "Werkzeuge", "Rüstung"],
+      "version": "1.9+"
+    },
+    {
+      "id": "minecraft:protection",
+      "name": "Schutz",
+      "max_level": 4,
+      "conflicts": [
+        "minecraft:blast_protection",
+        "minecraft:fire_protection",
+        "minecraft:projectile_protection"
+      ],
+      "item_categories": ["Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "name": "Feuerschutz",
+      "max_level": 4,
+      "conflicts": [
+        "minecraft:protection",
+        "minecraft:blast_protection",
+        "minecraft:projectile_protection"
+      ],
+      "item_categories": ["Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "name": "Federfall",
+      "max_level": 4,
+      "conflicts": [],
+      "item_categories": ["Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:blast_protection",
+      "name": "Explosionsschutz",
+      "max_level": 4,
+      "conflicts": [
+        "minecraft:protection",
+        "minecraft:fire_protection",
+        "minecraft:projectile_protection"
+      ],
+      "item_categories": ["Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:projectile_protection",
+      "name": "Schusssicher",
+      "max_level": 4,
+      "conflicts": [
+        "minecraft:protection",
+        "minecraft:fire_protection",
+        "minecraft:blast_protection"
+      ],
+      "item_categories": ["Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:respiration",
+      "name": "Atmung",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:aqua_affinity",
+      "name": "Wasseraffinität",
+      "max_level": 1,
+      "conflicts": [],
+      "item_categories": ["Rüstung"],
+      "version": "1.0+"
+    },
+    {
+      "id": "minecraft:thorns",
+      "name": "Dornen",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Rüstung"],
+      "version": "1.4+"
+    },
+    {
+      "id": "minecraft:depth_strider",
+      "name": "Wasserläufer",
+      "max_level": 3,
+      "conflicts": [
+        "minecraft:frost_walker"
+      ],
+      "item_categories": ["Rüstung"],
+      "version": "1.8+"
+    },
+    {
+      "id": "minecraft:frost_walker",
+      "name": "Eisläufer",
+      "max_level": 2,
+      "conflicts": [
+        "minecraft:depth_strider"
+      ],
+      "item_categories": ["Rüstung"],
+      "version": "1.9+"
+    },
+    {
+      "id": "minecraft:soul_speed",
+      "name": "Seelenläufer",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Rüstung"],
+      "version": "1.16+"
+    },
+    {
+      "id": "minecraft:swift_sneak",
+      "name": "Schleichgeschwindigkeit",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Rüstung"],
+      "version": "1.19+"
+    },
+    {
+      "id": "minecraft:impaling",
+      "name": "Harpune",
+      "max_level": 5,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.13+"
+    },
+    {
+      "id": "minecraft:riptide",
+      "name": "Sog",
+      "max_level": 3,
+      "conflicts": [
+        "minecraft:loyalty",
+        "minecraft:channeling"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.13+"
+    },
+    {
+      "id": "minecraft:loyalty",
+      "name": "Treue",
+      "max_level": 3,
+      "conflicts": [
+        "minecraft:riptide"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.13+"
+    },
+    {
+      "id": "minecraft:channeling",
+      "name": "Entladung",
+      "max_level": 1,
+      "conflicts": [
+        "minecraft:riptide"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.13+"
+    },
+    {
+      "id": "minecraft:multishot",
+      "name": "Mehrfachschuss",
+      "max_level": 1,
+      "conflicts": [
+        "minecraft:piercing"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.14+"
+    },
+    {
+      "id": "minecraft:piercing",
+      "name": "Durchschuss",
+      "max_level": 4,
+      "conflicts": [
+        "minecraft:multishot"
+      ],
+      "item_categories": ["Waffen"],
+      "version": "1.14+"
+    },
+    {
+      "id": "minecraft:quick_charge",
+      "name": "Schnellladen",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Waffen"],
+      "version": "1.14+"
+    },
+    {
+      "id": "minecraft:lure",
+      "name": "Köder",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Werkzeuge"],
+      "version": "1.7+"
+    },
+    {
+      "id": "minecraft:luck_of_the_sea",
+      "name": "Glück des Meeres",
+      "max_level": 3,
+      "conflicts": [],
+      "item_categories": ["Werkzeuge"],
+      "version": "1.7+"
+    },
+    {
+      "id": "minecraft:binding_curse",
+      "name": "Fluch der Bindung",
+      "max_level": 1,
+      "conflicts": [],
+      "item_categories": ["Rüstung"],
+      "version": "1.11+"
+    },
+    {
+      "id": "minecraft:vanishing_curse",
+      "name": "Fluch des Verschwindens",
+      "max_level": 1,
+      "conflicts": [],
+      "item_categories": ["Waffen", "Werkzeuge", "Rüstung"],
+      "version": "1.11+"
+    }
+  ]
+}
