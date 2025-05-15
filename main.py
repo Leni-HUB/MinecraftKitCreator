@@ -5,7 +5,7 @@ Dieses Programm ermöglicht die Erstellung von Minecraft-Kits in Shulkerboxen.
 Verwendung:
     python main.py
 
-Autor: Linus
+Autor: Leni
 """
 
 import sys
